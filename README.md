@@ -35,7 +35,7 @@ El propósito de nuestro proyecto se basa en que los espectadores de anime pueda
 
 ## 3. Mapa de navegación
 
-![Mapa de navegación]()
+![Mapa de navegación](mapaNavegacion1.png)
 
 ## 4. Prototipo (wireframe / mockup)
 
