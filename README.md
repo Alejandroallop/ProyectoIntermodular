@@ -43,4 +43,4 @@ El propósito de nuestro proyecto se basa en que los espectadores de anime pueda
 ![Maqueta Principal](PantallaPrincipal.png)
 
 *Pantallas Secundarias (laterales)*
-![Maqueta Principal](maqueta.png)
+![Maqueta Principal](mockup.png)
