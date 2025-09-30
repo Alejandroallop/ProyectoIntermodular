@@ -39,4 +39,8 @@ El propósito de nuestro proyecto se basa en que los espectadores de anime pueda
 
 ## 4. Prototipo (wireframe / mockup)
 
-*Proximamente....*
+*Pantallas principales del proyecto*
+![Maqueta Principal](PantallaPrincipal.png)
+
+*Pantallas Secundarias (laterales)*
+![Maqueta Principal](maqueta.png)
