@@ -45,8 +45,11 @@ El propósito de nuestro proyecto se basa en que los espectadores de anime pueda
 *Pantallas Secundarias (laterales)*
 ![Maqueta Principal](PantallaPrincipal.png)
 
-## 5. Maquetas de digma
-## 5.1 Maqueta de movil 
+## 5. Maquetas de Figma
+## 5.1 Maqueta Web
+![Maqueta Web](figma.jpg)
+
+## 5.2 Maqueta de movil 
 ![Maqueta Movil](figma_PI.png)
 
 
