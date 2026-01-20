@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime Den & Ninja Frog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#121212',
+              'secondary': '#212121',
+              'accent': 'var(--color-accent)',
+              'highlight': 'var(--color-highlight)',
+              'text-main': '#F5F5F5',
+              'text-secondary': '#BDBDBD',
+            },
+            animation: {
+              'float': 'float 3s ease-in-out infinite',
+              'idle': 'idle 4s ease-in-out infinite',
+              'fade-in': 'fadeIn 0.5s ease-in-out',
+              'smoke': 'smoke 2s ease-out forwards',
+              'petal-fall-1': 'petal-fall 12s linear infinite',
+              'petal-fall-2': 'petal-fall 18s linear infinite reverse',
+              'petal-fall-3': 'petal-fall 15s linear infinite',
+              'tree-sway': 'tree-sway 10s ease-in-out infinite alternate',
+              'happy-bounce': 'happy-bounce 1s ease-in-out infinite',
+              'annoyed-shake': 'annoyed-shake 0.6s ease-in-out infinite',
+              'sad-tremble': 'sad-tremble 0.4s linear infinite',
+              'drip': 'drip 1.5s ease-out infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0px)' },
+                '50%': { transform: 'translateY(-10px)' },
+              },
+              idle: {
+                '0%, 100%': { transform: 'scale(1) translateY(0px)' },
+                '50%': { transform: 'scale(1.03) translateY(-3px)' },
+              },
+              fadeIn: {
+                '0%': { opacity: 0 },
+                '100%': { opacity: 1 },
+              },
+              smoke: {
+                '0%': { transform: 'translateY(0) scale(1)', opacity: 1 },
+                '100%': { transform: 'translateY(-60px) scale(2.5)', opacity: 0 },
+              },
+              'petal-fall': {
+                  '0%': { transform: 'translateY(-10vh) translateX(0) rotate(0deg)', opacity: 1 },
+                  '20%': { transform: 'translateY(20vh) translateX(-5vw) rotate(60deg)' },
+                  '40%': { transform: 'translateY(40vh) translateX(2vw) rotate(120deg)' },
+                  '60%': { transform: 'translateY(60vh) translateX(-8vw) rotate(180deg)' },
+                  '80%': { transform: 'translateY(80vh) translateX(4vw) rotate(240deg)' },
+                  '100%': { transform: 'translateY(110vh) translateX(-2vw) rotate(360deg)', opacity: 0 },
+              },
+              'tree-sway': {
+                  'from': { transform: 'translateX(-2px) rotate(-0.5deg)' },
+                  'to': { transform: 'translateX(2px) rotate(0.5deg)' },
+              },
+              'happy-bounce': {
+                '0%, 100%': { transform: 'translateY(0) scale(1)' },
+                '25%': { transform: 'translateY(-15px) scale(1.05)' },
+                '50%': { transform: 'translateY(0) scale(0.95)' },
+                '75%': { transform: 'translateY(-8px) scale(1.02)' },
+              },
+              'annoyed-shake': {
+                '0%, 100%': { transform: 'translateX(0)' },
+                '25%': { transform: 'translateX(-5px) rotate(-2deg)' },
+                '75%': { transform: 'translateX(5px) rotate(2deg)' },
+              },
+              'sad-tremble': {
+                '0%, 100%': { transform: 'translate(0, 0)' },
+                '25%': { transform: 'translate(1px, -1px)' },
+                '50%': { transform: 'translate(-1px, 1px)' },
+                '75%': { transform: 'translate(1px, 1px)' },
+              },
+              drip: {
+                '0%': { transform: 'translateY(0)', opacity: 1 },
+                '100%': { transform: 'translateY(30px)', opacity: 0 },
+              },
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --color-accent: #E65100;
+        --color-highlight: #FF9800;
+      }
+      body {
+        background-color: #121212;
+        background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+        background-size: 16px 16px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+    "vite": "https://aistudiocdn.com/vite@^7.2.6",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-primary text-text-main">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

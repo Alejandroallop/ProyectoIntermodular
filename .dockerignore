@@ -1,0 +1,7 @@
+node_modules
+dist
+build
+.git
+.env.local
+.DS_Store
+mock-backend # No queremos copiar el backend dentro de la imagen del frontend
