@@ -40,16 +40,16 @@ El propósito de nuestro proyecto se basa en que los espectadores de anime pueda
 ## 4. Prototipo (wireframe / mockup)
 
 *Pantallas principales del proyecto*
-![Maqueta Principal](PantallaPrincipal.png)
+![Maqueta Principal](/imagenesmd/PantallaPrincipal.png)
 
 *Pantallas Secundarias (laterales)*
-![Maqueta Principal](PantallaPrincipal.png)
+![Maqueta Principal](/imagenesmd/PantallaPrincipal.png)
 
 ## 5. Maquetas de Figma
 ## 5.1 Maqueta Web
-![Maqueta Web](figma.jpg)
+![Maqueta Web](/imagenesmd/figma.jpg)
 
 ## 5.2 Maqueta de movil 
-![Maqueta Movil](figma_PI.png)
+![Maqueta Movil](/imagenesmd/figma_PI.png)
 
 
